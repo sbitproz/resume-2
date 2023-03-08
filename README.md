@@ -1,3 +1,22 @@
+# Install CRA
+
+# Link to git
+- add
+- commit changes
+- quick overview
+
+# Create contentful account
+- Setup space 
+- create content type
+- create content
+- get key working
+
+# Install dependencies
+- axios
+- https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/content-tags/content-tags-on-entries-and-assets
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

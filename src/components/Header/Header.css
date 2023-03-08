@@ -1,0 +1,17 @@
+.Header {
+  display: flex;
+}
+
+.Name {
+  flex-grow: 1.5;
+  background: #161c23;
+  margin: 0px 5px 10px 0px;
+  height: 300px;
+}
+
+.Photo {
+  flex-grow: 1;
+  background: purple;
+  margin: 0px 0px 10px 5px;
+  height: 300px;
+}

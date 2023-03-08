@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { ContactDetails } from './components/ContactDetails/ContactDetails';
+import Header from './components/Header/Header';
+import { FatSeparator, ThinSeparator } from './components/Separator/Separator';
+
+const home = { address: '131 Elm High', email: 'd@d.com' };
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" id="MyID">
+      <div className="Container">
+        <Header />
+        <FatSeparator />
+        <ContactDetails details={home} />
+        <ThinSeparator />
+      </div>
     </div>
   );
 }
